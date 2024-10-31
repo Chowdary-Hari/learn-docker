@@ -26,6 +26,3 @@ set `environment` variables
 hello 
 
 
-
-
-cd -
