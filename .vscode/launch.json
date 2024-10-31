@@ -11,7 +11,7 @@
             "program": "/Users/chowdary/.customCommands/gitpp.py",  // Path to your gitpp.py file
             "console": "integratedTerminal",           // Output in the integrated terminal
             "args": [],                               // Add any arguments here if needed
-            "cwd": "/Users/chowdary/IdeaProjects/learn-docker" // Set current working directory to the Git repo
+            "cwd": "."//"/Users/chowdary/IdeaProjects/learn-docker" // Set current working directory to the Git repo
         }
     ]
 }
