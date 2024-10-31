@@ -1,14 +1,15 @@
 {
+
     "version": "0.2.0",
     "configurations": [
         {
             "name": "Python Debugger: gitpp.py",      // Name of the configuration
             "type": "python",                         // Type set to Python
             "request": "launch",                      // Launch the program
-            "program":  "/Users/chowdary/.customCommands/gitpp.py",  // Path to your gitpp.py file
+            "program": "/Users/chowdary/.customCommands/gitpp.py",  // Path to your gitpp.py file
             "console": "integratedTerminal",           // Output in the integrated terminal
             "args": [],                               // Add any arguments here if needed
-            "cwd": "."
+            "cwd": "/Users/chowdary/IdeaProjects/learn-docker" // Set current working directory to the Git repo
         }
     ]
 }
