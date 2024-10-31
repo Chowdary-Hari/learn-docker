@@ -89,3 +89,8 @@ docker rmi -f `docker images -a -q`
 - `-a` - all images
 - `-q` - quiet
 - `-f` - force
+
+# move cache
+```shell
+docker system prune
+```

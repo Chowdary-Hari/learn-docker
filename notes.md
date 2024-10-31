@@ -14,13 +14,6 @@ sudo su - ec2-user
 ### CMD
 * `cmd` command will be execute at the time of container creation    
 
-### COPY
-* `copy` files to docker image
-
-
-### ENV
-set `environment` variables
-
 
 
 
