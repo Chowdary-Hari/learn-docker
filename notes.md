@@ -25,3 +25,7 @@ set `environment` variables
 ### **workdir**
 hello 
 
+
+
+
+cd -
