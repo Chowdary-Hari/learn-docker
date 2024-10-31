@@ -1,4 +1,7 @@
-
+### `root` user to `ec2-user` to shift
+```shell
+sudo su - ec2-user
+```
 
 ### FROM
 * `from` should be first instruction to represent base os 

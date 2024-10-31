@@ -72,7 +72,7 @@ docker rm <container_id>
 * how to build a docker image
 ```shell
 docker build -t <image_name> .
-```
+`
 - local format
     - image_name:tag
 
