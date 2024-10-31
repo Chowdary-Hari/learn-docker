@@ -3,6 +3,9 @@
 sudo su - ec2-user
 ```
 
+gitp='source ~/.customCommands/gitp.sh'
+gitpp='python3 ~/.customCommands/gitp.py'
+
 ### FROM
 * `from` should be first instruction to represent base os 
 

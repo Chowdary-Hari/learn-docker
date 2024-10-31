@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        // {
+        //     "name": "Python Debugger: gitp.py",       // Debug Python script gitp.py
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/gitp.py",
+        //     "console": "integratedTerminal"
+        // }
+        // {
+        //     "name": "Shell Debugger: gitp.sh",        // Debug Shell script gitp.sh
+        //     "type": "bash",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/gitp.sh",  // Path to gitp.sh
+        //     "console": "integratedTerminal"
+        // }
+    ]
+}
