@@ -94,3 +94,15 @@ docker rmi -f `docker images -a -q`
 ```shell
 docker system prune
 ```
+
+# create container and login inside container
+```shell
+docker run -it ngnix bash
+```
+- `-it` - interactive mode
+- `nginx` - image name
+- `bash` - command to run
+# list containers goto
+```shell
+docker exec -it
+```
