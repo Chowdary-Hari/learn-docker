@@ -4,21 +4,14 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
-
-        // {
-        //     "name": "Python Debugger: gitp.py",       // Debug Python script gitp.py
-        //     "type": "python",
-        //     "request": "launch",
-        //     "program": "${workspaceFolder}/gitp.py",
-        //     "console": "integratedTerminal"
-        // }
-        // {
-        //     "name": "Shell Debugger: gitp.sh",        // Debug Shell script gitp.sh
-        //     "type": "bash",
-        //     "request": "launch",
-        //     "program": "${workspaceFolder}/gitp.sh",  // Path to gitp.sh
-        //     "console": "integratedTerminal"
-        // }
+        {
+            "name": "Python Debugger: gitpp.py",      // Name of the configuration
+            "type": "python",                         // Type set to Python
+            "request": "launch",                      // Launch the program
+            "program": "/Users/chowdary/.customCommands/gitpp.py",  // Path to your gitpp.py file
+            "console": "integratedTerminal",           // Output in the integrated terminal
+            "args": [],                               // Add any arguments here if needed
+            "cwd": "/Users/chowdary/IdeaProjects/learn-docker" // Set current working directory to the Git repo
+        }
     ]
 }
