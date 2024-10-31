@@ -22,10 +22,6 @@ sudo su - ec2-user
 set `environment` variables
 
 
-### **workdir**
-hello 
-
-
 
 
 
