@@ -97,7 +97,7 @@ docker system prune
 
 # create container and login inside container
 ```shell
-docker run -it ngnix bash
+docker run -it < container name / container id> bash
 ```
 - `-it` - interactive mode
 - `nginx` - image name
