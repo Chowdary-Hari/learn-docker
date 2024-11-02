@@ -1,4 +1,13 @@
+
+# :: cmd :: instruction can be override 
+
+
+# :: entrypoint :: instruction can not be override 
+
+
+
 ### ENTRY POINT
+
 
 #### CMD INSTRUCTION
 ```
