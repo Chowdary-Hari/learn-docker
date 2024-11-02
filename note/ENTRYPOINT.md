@@ -1,13 +1,17 @@
 
-# :: cmd :: instruction can be override 
+### :: cmd :: instruction can be override 
+### :: entrypoint :: instruction can not be override 
 
 
-# :: entrypoint :: instruction can not be override 
+### :: CDM is used to default argument to supply to ENTRYPOINT , we can allways override default argument  from the run time :: 
+```
+ docker run entrypoint:1.0 ping -c4 facebook.com
+------------------------- ---------------------- 
+entry point command        run command
 
-
-
+```
 ### ENTRY POINT
-
+* continue with the last instruction
 
 #### CMD INSTRUCTION
 ```
@@ -27,7 +31,7 @@ rtt min/avg/max/mdev = 1.352/1.392/1.443/0.033 ms
 * exit to over ride entry point
 
 ```
-[ ec2-user@ip-172-31-62-57 ~/learn-docker/ENTRYPOINT ]$ docker run entrypoint:1.0 `ping -c4 facebook.com`
+[ ec2-user@ip-172-31-62-57 ~/learn-docker/ENTRYPOINT ]$ docker run entrypoint:1.0 ping -c4 facebook.com
 ping: ping: Name or service not known
 ```
 
