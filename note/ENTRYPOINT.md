@@ -25,5 +25,22 @@ rtt min/avg/max/mdev = 1.352/1.392/1.443/0.033 ms
 ```
 
 #### ENTRY POINT INSTRUCTION
+* exit to over ride entry point
 ```
-[ ec2-user@ip-172-31-62-57 ~/learn-docker/ENTRYPOINT ]$ docker run entrypoint:1.0 ping -c4
+[ ec2-user@ip-172-31-62-57 ~/learn-docker/ENTRYPOINT ]$ docker run entrypoint:1.5 ping -c4 facebook.com
+ping: ping: Name or service not known
+```
+
+```
+[ ec2-user@ip-172-31-62-57 ~/learn-docker/ENTRYPOINT ]$ docker run entrypoint:1.5
+PING google.com (172.253.63.101) 56(84) bytes of data.
+64 bytes from bi-in-f101.1e100.net (172.253.63.101): icmp_seq=1 ttl=55 time=1.85 ms
+64 bytes from bi-in-f101.1e100.net (172.253.63.101): icmp_seq=2 ttl=55 time=1.91 ms
+64 bytes from bi-in-f101.1e100.net (172.253.63.101): icmp_seq=3 ttl=55 time=1.88 ms
+64 bytes from bi-in-f101.1e100.net (172.253.63.101): icmp_seq=4 ttl=55 time=1.90 ms
+64 bytes from bi-in-f101.1e100.net (172.253.63.101): icmp_seq=5 ttl=55 time=1.91 ms
+
+--- google.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 1.849/1.889/1.908/0.021 ms
+```
