@@ -1,2 +1,0 @@
-ARG name
-FROM almalinux:
